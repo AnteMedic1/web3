@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    
+    <meta charset="UTF-8"> <!-- Kodiranje znakova za hrvatski jezik -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atari Breakout</title> <!-- Naslov koji se prikazuje u tabu preglednika -->
+    
+    <!-- Povezivanje CSS datoteke za stilizaciju -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Glavni container za igru -->
+    <div id="game-container">
+        
+        <!-- Canvas element za crtanje igre -->
+        <!-- width="800" height="600" - fiksne dimenzije prema zadatku -->
+        <canvas id="game-canvas" width="800" height="600"></canvas>
+        
+        <!-- Overlay za početni meni i kraj igre -->
+        <div id="game-overlay">
+            <!-- Naslov igre -->
+            <div class="title">BREAKOUT</div>
+            <!-- Uputa za pokretanje igre -->
+            <div class="subtitle">Press SPACE to begin</div>
+        </div>
+    </div>
+
+    <!-- Povezivanje JavaScript datoteke s logikom igre -->
+    <script src="game.js"></script>
+</body>
+</html>
